@@ -1,0 +1,4 @@
+2025-June-04 15:26:22 - INFO - Inserting 2nd test -->{'firstname': '888', 'lasttname': '999', 'pword': '101010', 'email': '111111@121212', 'gender': 'Male', 'age': '67', 'address': '77889900\n'}
+2025-June-04 15:42:53 - INFO - Inserting User Into Database --> {'firstname': 'Cally', 'lasttname': 'Rivers', 'pword': '123456', 'email': 'cally@hotmail.com', 'gender': 'Female', 'age': '45', 'address': '7 Liberator Street,\nAron\n'}
+2025-June-04 15:51:00 - INFO - Inserting User Into Database --> {'firstname': 'Adrian', 'lasttname': 'Fowler', 'pword': '09876', 'email': 'adrian@hishmail.com', 'gender': 'Male', 'age': '57', 'address': '456 Palerment Road,\nPetone\n'}
+2025-June-04 15:56:07 - INFO - Inserting User Into Database --> {'firstname': 'Sarah', 'lasttname': 'Walton', 'pword': '12345', 'email': 'sarah@hotmail.com', 'gender': 'Female', 'age': '78', 'address': '9669 Helpme Avenue,\nMoanna\n'}

@@ -1,0 +1,27 @@
+self.gender_lbl = customtkinter.CTkLabel( self,
+                                                  fg_color = 'transparent',
+                                                  font = ( 'Mono', 25 ),
+                                                  height = 48,
+                                                  corner_radius = 15,
+                                                  text = 'Select Gender:' )
+        self.gender_lbl.place( x = 400, y = 30 )
+
+        self.gender_var = customtkinter.StringVar( value = '' )
+
+        self.male_btn = customtkinter.CTkRadioButton( self,
+                                                      variable = self.gender_var,
+                                                      value = 'Male',
+                                                      cursor = 'hand2',
+                                                      font = ( 'Mono', 25 ),
+                                                      fg_color = '#90599a',
+                                                      text_color = '#e4b114',
+                                                      text = 'Male' )
+        self.male_btn.place( x = 670, y = 37 )
+
+        self.female_btn = customtkinter.CTkRadioButton( self,
+                                                        variable = self.gender_var,
+                                                        value = 'Female',
+                                                        cursor = 'hand2',
+                                                        font = ( 'Mono', 25 ),
+                                                        text = 'Female' )
+        self.female_btn.place( x = 800, y = 37 )
